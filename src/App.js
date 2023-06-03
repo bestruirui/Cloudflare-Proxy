@@ -32,7 +32,7 @@ export default function App() {
           color={webaddr ? "blue" : "blue-gray"}
           disabled={!webaddr}
           className="!absolute right-1 top-1 rounded"
-          onClick={() => window.open(`/-----${webaddr}`, "_blank")}
+          onClick={() => window.open(`/-----${webaddr}`, "_blank",'noopener,noreferrer')}
         >
           Go
         </Button>
